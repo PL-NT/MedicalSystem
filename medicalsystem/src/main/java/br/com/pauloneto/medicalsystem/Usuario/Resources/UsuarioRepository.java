@@ -1,6 +1,6 @@
-package br.com.pauloneto.medicalsystem.Resources;
+package br.com.pauloneto.medicalsystem.Usuario.Resources;
 
-import br.com.pauloneto.medicalsystem.Domain.Usuario;
+import br.com.pauloneto.medicalsystem.Usuario.Domain.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

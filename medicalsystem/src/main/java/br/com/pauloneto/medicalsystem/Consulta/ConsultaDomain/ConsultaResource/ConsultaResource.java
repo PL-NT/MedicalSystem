@@ -1,7 +1,7 @@
-package br.com.pauloneto.medicalsystem.ConsultaResource;
+package br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.ConsultaResource;
 
-import br.com.pauloneto.medicalsystem.ConsultaDomain.Consulta;
-import br.com.pauloneto.medicalsystem.ConsultaService.ConsultaService;
+import br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.Domain.Consulta;
+import br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.ConsultaService.ConsultaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

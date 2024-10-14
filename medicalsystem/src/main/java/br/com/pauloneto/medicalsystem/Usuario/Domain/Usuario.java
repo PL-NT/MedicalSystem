@@ -1,4 +1,4 @@
-package br.com.pauloneto.medicalsystem.Domain;
+package br.com.pauloneto.medicalsystem.Usuario.Domain;
 
 import jakarta.persistence.*;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package br.com.pauloneto.medicalsystem.ConsultaDomain;
+package br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.Domain;
 
-import br.com.pauloneto.medicalsystem.Domain.Usuario;
+import br.com.pauloneto.medicalsystem.Usuario.Domain.Usuario;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Data;

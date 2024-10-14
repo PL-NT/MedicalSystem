@@ -1,7 +1,7 @@
-package br.com.pauloneto.medicalsystem.ConsultaService;
+package br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.ConsultaService;
 
-import br.com.pauloneto.medicalsystem.ConsultaDomain.Consulta;
-import br.com.pauloneto.medicalsystem.ConsultaResource.ConsultaRepository;
+import br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.Domain.Consulta;
+import br.com.pauloneto.medicalsystem.Consulta.ConsultaDomain.ConsultaResource.ConsultaRepository;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;

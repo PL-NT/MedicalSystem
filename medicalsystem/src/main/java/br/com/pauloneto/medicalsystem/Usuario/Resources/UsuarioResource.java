@@ -1,7 +1,7 @@
-package br.com.pauloneto.medicalsystem.Resources;
+package br.com.pauloneto.medicalsystem.Usuario.Resources;
 
-import br.com.pauloneto.medicalsystem.Domain.Usuario;
-import br.com.pauloneto.medicalsystem.Services.UsuarioService;
+import br.com.pauloneto.medicalsystem.Usuario.Domain.Usuario;
+import br.com.pauloneto.medicalsystem.Usuario.Services.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

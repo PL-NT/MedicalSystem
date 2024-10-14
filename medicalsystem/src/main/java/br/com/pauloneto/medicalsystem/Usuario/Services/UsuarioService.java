@@ -1,7 +1,7 @@
-package br.com.pauloneto.medicalsystem.Services;
+package br.com.pauloneto.medicalsystem.Usuario.Services;
 
-import br.com.pauloneto.medicalsystem.Domain.Usuario;
-import br.com.pauloneto.medicalsystem.Resources.UsuarioRepository;
+import br.com.pauloneto.medicalsystem.Usuario.Domain.Usuario;
+import br.com.pauloneto.medicalsystem.Usuario.Resources.UsuarioRepository;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
