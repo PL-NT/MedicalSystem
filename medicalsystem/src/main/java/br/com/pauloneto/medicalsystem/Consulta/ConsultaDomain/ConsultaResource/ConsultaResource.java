@@ -28,18 +28,18 @@ public class ConsultaResource {
     }
 
     @GetMapping
-    public ResponseEntity<List<Consulta>> listarUsuarios(){
+    public ResponseEntity<List<Consulta>> listarConsultas(){
         return ResponseEntity.ok().body(consultaService.listarConsultas());
     }
 
-    @GetMapping
+    @GetMapping(value = "/{id}")
     public ResponseEntity<Consulta> buscarConsulta(@PathVariable Long id){
         Consulta consulta = consultaService.buscarConsulta(id);
         return ResponseEntity.ok().body(consulta);
 
     }
 
-    @PutMapping
+    @PutMapping(value = "/{id}")
     public ResponseEntity<Consulta> atualizarConsulta(@RequestBody Consulta consulta, @PathVariable Long id) {
         consulta.setIdConsulta(id);
         Consulta consultaAtualizada = consultaService.atualizarConsulta(consulta);

@@ -22,7 +22,7 @@ public class UsuarioResource {
         return ResponseEntity.status(HttpStatus.CREATED).body(usuarioNovo);
     }
 
-    @GetMapping (value = "{/id}")
+    @GetMapping (value = "/{id}")
     public ResponseEntity<Usuario> buscarCliente(@PathVariable Long id){
         Usuario usuario = usuarioService.buscarUsuario(id);
         return ResponseEntity.ok().body(usuario);
